@@ -21,7 +21,10 @@ public class WebCamInput : MonoBehaviour
     {
         if(staticInput == null){
             webCamTexture = new WebCamTexture(webCamName, (int)webCamResolution.x, (int)webCamResolution.y);
-            webCamTexture.Play();
+            /*WebCamDevice[] devices = WebCamTexture.devices;
+            for (int i = 0; i < devices.Length; i++)
+                Debug.Log(devices[i].name);
+            Debug.Log(devices.Length+ " is length");*/
         }
 
         inputRT = new RenderTexture((int)webCamResolution.x, (int)webCamResolution.y, 0);

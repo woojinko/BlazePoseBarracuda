@@ -10,6 +10,7 @@
   ],
   "dependencies": {
     "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.8.0.tgz",
+    "com.microsoft.mixedreality.openxr.sampleshared": "file:../SampleShared",
     "com.microsoft.mrtk.core": "file:MixedReality/com.microsoft.mrtk.core-3.0.0-pre.16.tgz",
     "com.microsoft.mrtk.graphicstools.unity": "file:MixedReality/com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz",
     "com.microsoft.mrtk.input": "file:MixedReality/com.microsoft.mrtk.input-3.0.0-pre.16.tgz",

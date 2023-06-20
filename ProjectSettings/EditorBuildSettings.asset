@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Woojin.unity
+  - enabled: 0
+    path: Assets/Scenes/OnDevice.unity
     guid: 6d3fcd1e3cfff8e418d53df9901ecd06
   - enabled: 0
     path: Assets/Scenes/3DSampleScene.unity
     guid: 6fa8249fca1e9bb4cb86a4df8eb0bd08
+  - enabled: 1
+    path: Assets/Scenes/Remoting.unity
+    guid: 6aa4fcc79155a454f95aa95d16f60d57
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: e13eefcf94b892946a70eaff07cd3067, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5539c812654d16f42906f692bca282aa, type: 2}
